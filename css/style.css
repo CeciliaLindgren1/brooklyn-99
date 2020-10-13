@@ -1,0 +1,112 @@
+body{
+  background-color: #f3e6ff;
+}
+
+/*såhär stylar jag rubrikerna*/
+h1{
+  text-shadow: 1px 2px black;
+  color: white;
+  background-color:  #8080ff;
+  text-align: center;
+  font-size: 60px;
+}
+h2{
+  text-shadow: 1px 2px black;
+  color: white;
+  background-color:  #8080ff;
+  text-align: center;
+  font-size: 45px;
+}
+h3{
+  color:white;
+  text-shadow: 1px 2px black;
+  background-color:  #9999ff;
+  text-align: center;
+  font-size: 30px;
+
+}
+/*style till menyn*/
+ul{
+  list-style-type: none;
+}
+li{
+  float:left;
+}
+li a:hover{
+  background-color: #8080ff;
+}
+li a{
+  text-align: left;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.första{
+  display: block;
+  margin: auto;
+}
+
+p{
+  font-family: times;
+  text-align: center;
+  font-size: 18px;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+/*style till min dropdown button*/
+.dropdown{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn:hover{
+  background-color: #8080ff
+}
+.dropdown .dropbtn{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #8080ff;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color:white;
+  text-shadow: 1px 2px black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+  background-color: #8080ff;
+}
+
+#speciell a{
+  color:white;
+  text-shadow: 1px 2px black;
+  background-color: #8080ff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: times;
+}
+
+#speciell{
+    text-align: right;
+}
